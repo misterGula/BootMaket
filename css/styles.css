@@ -22,6 +22,7 @@ h4{
 	margin-bottom: 20px;
 }
 
+
 /*======header======*/
 
 .main-header{	
@@ -88,14 +89,37 @@ h4{
 	color: #fff;
 	text-transform: uppercase;
 }
+.container-fluid{
+	width: 90%;
+}
 
 
+/*<=====section-watch styles====>*/
 
+.section-watch{
+	background: url(../img/world_map.png) center no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.section-watch .nav-pills .nav-link{
+	font-weight: 600;
+	font-size: 15px;
+	padding: 14px 30px;
+	text-transform: uppercase;
+}
+.section-watch .btn{
+	margin-top: 30px;	
+}
+.section-watch picture{
+	margin-left: 100px;
+}
 /*<=======adaptive styles===========>*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	
+@media only screen and (max-width : 1400px) {
+	.main-header-text{
+		max-width: 80%;
+
 }
 
 /* Medium Devices, Desktops */
