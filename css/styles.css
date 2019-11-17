@@ -108,11 +108,67 @@ h4{
 	text-transform: uppercase;
 }
 .section-watch .btn{
-	margin-top: 30px;	
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 30px;
+	opacity: .8;
+	box-shadow: 0 4px 16px rgba(0, 0, 0 , .5);
+	padding-top: 15px;	
 }
 .section-watch picture{
-	margin-left: 100px;
+	margin-left: 10%;
 }
+
+/*<=======section-progress=========>*/
+
+.section-progress{
+	background-color: #4b2d7f;
+	color: #fff;
+	font-size: 15px;
+}
+.section-progress i{
+	font-size: 60px;
+}
+.section-progress .num{
+	font-size: 50px;
+	font-weight: 600;
+	margin: 30px 0 20px;
+}
+.section-progress h4{
+	font-size: 30px;
+	height: 72px;
+	overflow: hidden;
+}
+.section-progress .progress-item:hover{
+	background-color: #40286a;
+}
+
+/*<=======section-lets======>*/
+.section-lets{
+	background: url('../img/letsgrow.jpg') center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+.section-lets .btn{
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 30px;
+	opacity: .8;
+	box-shadow: 0 4px 16px rgba(0, 0, 0 , .5);
+	padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
 /*<=======adaptive styles===========>*/
 
 /* Large Devices, Wide Screens */
